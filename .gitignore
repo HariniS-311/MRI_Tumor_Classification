@@ -1,0 +1,24 @@
+# Python
+__pycache__/
+*.py[cod]
+venv/
+backend/venv/
+
+# React / Node
+node_modules/
+frontend/node_modules/
+frontend/dist/
+
+# Uploaded images
+backend/uploads/*
+!backend/uploads/.gitkeep
+
+# Environment and secrets
+.env
+.env.*
+!.env.example
+
+# Editor files
+.vscode/
+backend/models/*.pkl
+!backend/models/svm_hog_only.pkl
